@@ -7,7 +7,7 @@ export default function Factoryform() {
     return(
     <section className="bg-gray-100">
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-md mt-10">
-          {/* Close icon */}
+          {}
          <h2 className="text-2xl font-bold text-center text-indigo-900 mb-6">Book A Factory Tour</h2>
         <form  id="factoryTourForm" className="space-y-6">
           <Link href="/"><button className=""><Image className="flex justify-end content-end ml-200 -mt-15 " src="/images/Group-23.png" alt="#" width={25} height={25}/></button></Link>
@@ -28,17 +28,17 @@ export default function Factoryform() {
         </div>
 
         <div className="w-90">
-          <label htmlFor="residentTown" className="block font-semibold text-gray-700 mb-1">Organization’s Resident Town</label>
+          <label htmlFor="residentTown" className="block font-semibold text-gray-700 mb-1">Organization&apos;s Resident Town</label>
           <input type="text" id="residentTown" name="residentTown" className="w-full p-2 border rounded bg-yellow-50" required/>
         </div>
 
         <div className="w-90">
-          <label htmlFor="telephone" className="block font-semibold text-gray-700 mb-1">Contact Person’s Telephone</label>
+          <label htmlFor="telephone" className="block font-semibold text-gray-700 mb-1">Contact Person&apos;s Telephone</label>
           <input type="tel" id="telephone" name="telephone" className="w-full p-2 border rounded bg-yellow-50" required/>
         </div>
 
         <div className="w-90">
-          <label htmlFor="email" className="block font-semibold text-gray-700 mb-1">Contact Person’s E-mail</label>
+          <label htmlFor="email" className="block font-semibold text-gray-700 mb-1">Contact Person&apos;s E-mail</label>
           <input type="email" id="email" name="email" className="w-full p-2 border rounded bg-yellow-50" required/>
         </div>
 

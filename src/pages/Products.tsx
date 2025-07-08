@@ -163,9 +163,6 @@ export default function Products(){
                 </Box> 
                   </div>
             </div>
-
         </section>
-
     );
-
 }

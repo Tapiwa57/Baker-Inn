@@ -1,12 +1,11 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
 import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
-import { useState } from "react";
+
 
 
 //About Baker Inn
@@ -22,16 +21,6 @@ interface TabPanelProps {
   index: number;
   value: number;
 };
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 function CustomTabPanel(props: TabPanelProps) {
   const { children, value, index, ...other } = props;
@@ -81,7 +70,7 @@ export default function Home() {
       Bringing you the <br />best value at the <br />best prices
     </h1>
     <p className="text-5xl sm:text-xl md:text-3xl mb-5">
-      The freshest sandwiches you can make are <br />with Baker’s inn soft white loaf.
+      The freshest sandwiches you can make are <br />with Baker&apos;s inn soft white loaf.
     </p>
     <button
       className="border-0 text-lg sm:text-1xl md:text-1xl px-10 font-bold w-60 h-20 mt-5"
@@ -94,14 +83,14 @@ export default function Home() {
 
 <div className="flex flex-col md:flex-row max-w-full justify-center items-center md:items-start md:gap-60 gap-20 py-48 text-blue-950">
   <div className=" flex content-center md:text-left">
-    <h1 className="text-4xl md:text-6xl font-extrabold">About Us Baker's Inn</h1>
+    <h1 className="text-4xl md:text-6xl font-extrabold">About Us Baker&apos;s Inn</h1>
   </div>
   <div className="text-lg md:text-3xl text-center md:text-left max-w-prose">
     <p>
-      It all started back in the eighties when Baker's Inn was just a small <br /> 
+      It all started back in the eighties when Baker&apos;s Inn was just a small <br /> 
       confectionery company that employed 40 people and produced <br />
       30,000 loaves a day. We now aim to provide a nourishing, convenient <br />
-      and accessible answer to hunger's call.
+      and accessible answer to hunger&apos;s call.
     </p>
     <Link href="/AboutUs">
       <button
@@ -166,8 +155,8 @@ export default function Home() {
       Book A Factory Tour
     </h1>
     <p className="text-lg sm:text-1xl md:text-3xl mb-0 text-center md:text-left leading-relaxed">
-      Keen on seeing how Baker's Inn products are made? Are <br />
-      you interested in a field trip day for your school's class? <br />
+      Keen on seeing how Baker&apos;s Inn products are made? Are <br />
+      you interested in a field trip day for your school&apos;s class? <br />
       Get in touch with us to book a tour of our factory that is <br />
       closest to you. Fill in the booking form and we will get back to you.
     </p>
@@ -212,9 +201,9 @@ export default function Home() {
     </h1>
     <p className="text-lg sm:text-1xl md:text-3xl mb-6 leading-relaxed">
       If you are holding an event that you wish to have us <br />
-      donate to, we're more than glad to help. Fill in <br />
+      donate to, we&apos;re more than glad to help. Fill in <br />
       donation request form for us to best understand how we <br />
-      can increase your event's impact in the local community.
+      can increase your event&apos;s impact in the local community.
     </p>
     <Link href="/Donationform">
       <button
@@ -254,7 +243,7 @@ export default function Home() {
 </div>
 
     <div className="flex max-w-full justify-center py-50 text-blue-950"  style={{flexDirection:"column", alignContent:"center",marginTop:"-250px"}}>
-      <Link href="/Recipes"><h1 className="text-5xl font-extrabold mb-40 flex justify-center" style={{}}>Baker's Recipes</h1></Link>
+      <Link href="/Recipes"><h1 className="text-5xl font-extrabold mb-40 flex justify-center" style={{}}>Baker&apos;s Recipes</h1></Link>
       <div>
         <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>

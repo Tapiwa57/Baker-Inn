@@ -10,7 +10,6 @@ import Link from "next/link";
 import About1 from "../../public/images/Rectangle 337.png"
 import About2 from "../../public/images/Rectangle-337-1.png" 
 import About3 from "../../public/images/Rectangle 337-2.png"
-import About4 from "../../public/images/Rectangle-16.png"
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -70,7 +69,7 @@ export default function Recipes(){
                 </div>
             </div>
             <div className="flex max-w-full justify-center py-50 text-blue-950"  style={{flexDirection:"column", alignContent:"center",marginTop:"-90px"}}>
-                  <Link href="/Recipes"><h1 className="text-7xl font-extrabold mb-40 flex justify-center" style={{}}>Baker's Recipes</h1></Link>
+                  <Link href="/Recipes"><h1 className="text-7xl font-extrabold mb-40 flex justify-center" style={{}}>Baker&apos;s Recipes</h1></Link>
                   <div>
                     <Box sx={{ width: '100%' }}>
                   <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
