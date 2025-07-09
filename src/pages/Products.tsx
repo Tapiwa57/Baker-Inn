@@ -44,9 +44,9 @@ export default function Products(){
         <section>
 
             <div>
-                <div className= "flex justify-evenly  gap-170 max-w-full mt-0.5 ml-8 mr-8 py-100"style={{backgroundPosition:"center", backgroundSize:"cover",backgroundImage:"linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.7) 100%),url(/images/Rectangle-347.png)", borderRadius: "10px"}}>
-                <h1 className="text-white text-7xl font-extrabold" style={{position:"relative" ,top:"370px", left:"-50px"}}>Our Product Range</h1>
-                <Image className="" style={{position:"relative" ,top:"355px", left:"30px"}} src="/images/Group-300.png" alt="facebook" width={100} height={100}/>
+                <div className= "flex justify-evenly  gap-170 max-w-full mt-0.5 ml-8 mr-8 py-70"style={{backgroundPosition:"center", backgroundSize:"cover",backgroundImage:"linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.7) 100%),url(/images/Rectangle-347.png)", borderRadius: "10px"}}>
+                <h1 className="text-white text-5xl font-extrabold" style={{position:"relative" ,top:"260px", left:"20px"}}>Our Product Range</h1>
+                <Image className="" style={{position:"relative" ,top:"255px", left:"4px"}} src="/images/Group-300.png" alt="facebook" width={50} height={100}/>
                 
                 </div>
             </div>
@@ -76,20 +76,20 @@ export default function Products(){
                   </Box>
                   <CustomTabPanel value={value} index={0}>
                   <div className="flex justify-center flex-wrap gap-10" style={{alignContent:"center",}}>
-                    <div className=" flex justify-center content-center flex-col text-center bg-[hsla(40,40%,50%,1)] h-200" style={{border:"0px solid ", padding:"10px", borderRadius:"10px"}}>
-                      <Image className="ml-9"src="/images/Rectangle-3520.png" alt="About1" width={400} height={400}></Image>
-                      <h1 className="text-5xl font-extrabold mb-0 p-1">Premium Soft <br /> White loaf</h1>
-                      <p className=" text-2xl font-extralight p-5">Our Premium Soft loaves are <br /> delightfully soft, fresh and delicious. They are <br /> loaded with energy and fortified with vitamins <br /> and mineral for the classic everyday bread. <br /> The Standard Loaf has 18 slices.</p>
+                    <div className=" flex justify-center content-center flex-col text-center bg-[#f0e1c4] h-150" style={{border:"0px solid ", padding:"10px", borderRadius:"10px"}}>
+                      <Image className="ml-9"src="/images/Rectangle-3520.png" alt="About1" width={250} height={350}></Image>
+                      <h1 className="text-3xl font-extrabold mb-0 p-1">Premium Soft <br /> White loaf</h1>
+                      <p className=" text-1xl font-extralight p-5">Our Premium Soft loaves are <br /> delightfully soft, fresh and delicious. They are <br /> loaded with energy and fortified with vitamins <br /> and mineral for the classic everyday bread. <br /> The Standard Loaf has 18 slices.</p>
                     </div>
-                   <div className="flex justify-center content-center flex-col text-center bg-[hsla(40,40%,50%,1)] h-200" style={{border:"1px solid ", padding:"10px", borderRadius:"10px"}}>
-                      <Image className="ml-25" src="/images/Rectangle-3540.png" alt="About1" width={300} height={300}></Image>
-                      <h1 className="text-5xl font-extrabold mb-0 p-1">Family Loaf High <br /> Energy Brown</h1>
-                      <p className=" text-2xl font-extralight p-5">Our Premium Soft loaves are <br /> delightfully soft, fresh and delicious. They are <br /> loaded with energy and fortified with vitamins <br /> and mineral for the classic everyday bread. <br /> The Standard Loaf has 18 slices.</p>
+                   <div className="flex justify-center content-center flex-col text-center bg-[#f0e1c4] h-150" style={{border:"0px solid ", padding:"10px", borderRadius:"10px"}}>
+                      <Image className="ml-25" src="/images/Rectangle-3540.png" alt="About1" width={180} height={300}></Image>
+                      <h1 className="text-3xl font-extrabold mb-0 p-1">Family Loaf High <br /> Energy Brown</h1>
+                      <p className=" text-1xl font-extralight p-5">Our Premium Soft loaves are <br /> delightfully soft, fresh and delicious. They are <br /> loaded with energy and fortified with vitamins <br /> and mineral for the classic everyday bread. <br /> The Standard Loaf has 18 slices.</p>
                   </div>
-                   <div className="flex justify-center content-center flex-col text-center bg-[hsla(40,40%,50%,1)] h-200" style={{border:"1px solid ", padding:"10px", borderRadius:"10px"}}>
-                      <Image className="ml-25" src="/images/Rectangle-3570.png" alt="About1" width={300} height={300}></Image>
-                      <h1 className="text-5xl font-extrabold mb-0 p-1">Family Loaf High <br /> Energy Brown</h1>
-                      <p className=" text-2xl font-extralight p-5">Our Premium Soft loaves are <br /> delightfully soft, fresh and delicious. They are <br /> loaded with energy and fortified with vitamins <br /> and mineral for the classic everyday bread. <br /> The Standard Loaf has 18 slices.</p>
+                   <div className="flex justify-center content-center flex-col text-center bg-[#f0e1c4] h-150" style={{border:"0px solid ", padding:"10px", borderRadius:"10px"}}>
+                      <Image className="ml-25" src="/images/Rectangle-3570.png" alt="About1" width={180} height={300}></Image>
+                      <h1 className="text-3xl font-extrabold mb-0 p-1">Family Loaf High <br /> Energy Brown</h1>
+                      <p className=" text-1xl font-extralight p-5">Our Premium Soft loaves are <br /> delightfully soft, fresh and delicious. They are <br /> loaded with energy and fortified with vitamins <br /> and mineral for the classic everyday bread. <br /> The Standard Loaf has 18 slices.</p>
                   </div>
                   </div>
                   

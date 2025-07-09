@@ -5,51 +5,51 @@ export default function ContactUs(){
     return(
         <section>
             <div>
-                 <div className= "flex justify-evenly  gap-280 max-w-full mt-0.5 ml-8 mr-8 py-100"style={{backgroundPosition:"center", backgroundSize:"cover",backgroundImage:"linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.7) 100%) ,url(/images/Rectangle-32.png)", borderRadius: "10px"}}>
-                    <h1 className="text-white text-7xl font-extrabold" style={{position:"relative" ,top:"400px", left:"32px"}}>Contact Us</h1>
-                    <Image className="" style={{position:"relative" ,top:"400px", left:"32px"}} src="/images/Group-300.png" alt="facebook" width={100} height={100}/>
+                 <div className= "flex justify-evenly  gap-190 max-w-full mt-0.5 ml-8 mr-8 py-70"style={{backgroundPosition:"center", backgroundSize:"cover",backgroundImage:"linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.7) 100%) ,url(/images/Rectangle-32.png)", borderRadius: "10px"}}>
+                    <h1 className="text-white text-5xl font-extrabold" style={{position:"relative" ,top:"240px", left:"5px"}}>Contact Us</h1>
+                    <Image className="" style={{position:"relative" ,top:"230px", left:"0px"}} src="/images/Group-300.png" alt="facebook" width={50} height={0}/>
                 </div>
             </div>
             <div className="text-blue-950 flex justify-center content-center flex-wrap flex-col p-20"  >
                 <div className="text-blue-950 flex justify-center content-center flex-wrap flex-row gap-20">
                     <div className="flex flex-col gap-5">
-                        <Image src="/images/Rectangle-66900.png" alt="#" width={700} height={300}/>
-                        <h1 className="text-4xl font-extrabold">Harare Bread Factory</h1>
-                        <p className="text-2xl">1 Shepperton Road, Graniteside, Harare</p>
-                        <p className="text-2xl">+263 242 710334, +263 242 751481 <br /> +263 242 751572 , +263 242 758659</p>
-                        <p className="text-2xl">VOIP: 08677006178</p>
-                        <p className="text-2xl">Econet Toll Free: 08080151, 08080152</p>
+                        <Image src="/images/Rectangle-66900.png" alt="#" width={500} height={300}/>
+                        <h1 className="text-3xl font-extrabold">Harare Bread Factory</h1>
+                        <p className="text-1xl">1 Shepperton Road, Graniteside, Harare</p>
+                        <p className="text-1xl">+263 242 710334, +263 242 751481 <br /> +263 242 751572 , +263 242 758659</p>
+                        <p className="text-1xl">VOIP: 08677006178</p>
+                        <p className="text-1xl">Econet Toll Free: 08080151, 08080152</p>
                     </div>
                     <div className="flex flex-col gap-5">
-                        <Image src="/images/Rectangle-671000.png" alt="#" width={700} height={300}/>
-                        <h1 className="text-4xl font-extrabold">Bulawayo Bread Factory</h1>
-                        <p className="text-2xl">22 A Bellevue Road, Belmont, Bulawayo</p>
-                        <p className="text-2xl">+263 9 78279, +263 9 68826, +263 9 68381,  <br /> ++263 9 68383, +263 9 69592, +263 9 76693</p>
-                        <p className="text-2xl">VOIP: 08677006179</p>
-                        <p className="text-2xl">Econet Toll Free: 08080151, 08080152</p>
+                        <Image src="/images/Rectangle-671000.png" alt="#" width={500} height={300}/>
+                        <h1 className="text-3xl font-extrabold">Bulawayo Bread Factory</h1>
+                        <p className="text-1xl">22 A Bellevue Road, Belmont, Bulawayo</p>
+                        <p className="text-1xl">+263 9 78279, +263 9 68826, +263 9 68381,  <br /> ++263 9 68383, +263 9 69592, +263 9 76693</p>
+                        <p className="text-1xl">VOIP: 08677006179</p>
+                        <p className="text-1xl">Econet Toll Free: 08080151, 08080152</p>
                     </div>
                 </div>
             </div>
             <div className="text-blue-950 flex justify-center content-center flex-col mb-30">
-                <h1 className="text-5xl font-extrabold text-center p-20">List Of Baker&apos;s Inn Depots</h1>
-                <div className="flex justify-center flex-row gap-20 border-t-4 border-gray-600 w-300 max-w-full ml-125">
+                <h1 className="text-3xl font-extrabold text-center p-20">List Of Baker&apos;s Inn Depots</h1>
+                <div className="flex justify-center flex-row gap-10 border-t-4 border-gray-600 w-220 max-w-full ml-85">
                     <div>
                         <h2 className="text-2xl font-extrabold p-5">Depot</h2>
-                        <p className="text-2xl">Chinhoyi Depot <br />Bindura Depot <br />Murehwa Depot <br />Mutare Depot <br /> <br /> <br />Hwange Depot <br />Chiredzi Depot <br />Masvingo Depot <br />Gweru Depot <br />Zvishavane Depot</p>
+                        <p className="text-1xl">Chinhoyi Depot <br />Bindura Depot <br />Murehwa Depot <br />Mutare Depot <br /> <br /> <br />Hwange Depot <br />Chiredzi Depot <br />Masvingo Depot <br />Gweru Depot <br />Zvishavane Depot</p>
                     </div>
                     <div className="border-l-4 border-gray-600">
                         <h2 className="text-2xl font-extrabold p-5">Address</h2>
-                        <p className="text-2xl">94/95 Josiah Tongogara St, Industrial Site, Chinhoyi <br />461 Luton Road, Industrial Site, Bindura <br />Stand number 351 Murehwa Growth Point <br />5-7 Glasgow Road, Industrial Site, Mutare <br /><br /><br />29 Derby Drive, Hwange Industrial Site <br />329 Lion Drive, Chiredzi <br />1310 Mineral Road, Masvingo <br />1843 Main Street, Gweru <br />Shabanie Mine Club, Noelville, Zvishavane</p> 
+                        <p className="text-1xl">94/95 Josiah Tongogara St, Industrial Site, Chinhoyi <br />461 Luton Road, Industrial Site, Bindura <br />Stand number 351 Murehwa Growth Point <br />5-7 Glasgow Road, Industrial Site, Mutare <br /><br /><br />29 Derby Drive, Hwange Industrial Site <br />329 Lion Drive, Chiredzi <br />1310 Mineral Road, Masvingo <br />1843 Main Street, Gweru <br />Shabanie Mine Club, Noelville, Zvishavane</p> 
                     </div>
                     <div className="border-l-4 border-gray-600">
                         <h2 className="text-2xl font-extrabold p-5">Phone Number</h2>
-                        <p className="text-2xl font-bold">0772 318 309 <br/>066 2107317 <br />0652 122 514 <br/>020 60715 <br /> <br /> <br />0281 2820105 <br />0231 231 2709 <br />039 266 333<br />054 2220 858 <br />0772 395567</p> 
+                        <p className="text-1xl font-bold">0772 318 309 <br/>066 2107317 <br />0652 122 514 <br/>020 60715 <br /> <br /> <br />0281 2820105 <br />0231 231 2709 <br />039 266 333<br />054 2220 858 <br />0772 395567</p> 
                     </div>
                 </div>
             </div>
-            <div className="text-blue-950 flex justify-center content-center flex-wrap flex-col">
-                <Image src="/images/Rectangle-310.png" alt="#" width={1600} height={10}/>
-                <div className="flex justify-center gap-100 p-20">
+            <div className="text-blue-950 flex justify-center items-center flex-wrap flex-col">
+                <Image src="/images/Rectangle-310.png" alt="#" width={1200} height={10}/>
+                <div className="flex justify-center gap-70 p-9">
                     <div>
                         <h2 className="text-2xl font-extrabold">For job enquiries , email your CV to</h2>
                         <a className="text-2xl" href="#">hr@bakersinnzim.com</a>
