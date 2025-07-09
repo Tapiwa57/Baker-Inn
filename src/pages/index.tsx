@@ -391,7 +391,7 @@ export default function Home() {
     <div className=" flex ml-8 mr-8 mb-40 max-w-full"style={{backgroundPosition:"centre", backgroundSize:"cover", backgroundImage:"url(/images/Gold.png)", padding:"180px", borderRadius:"20px"}}>
       <div className="" style={{marginLeft:"-190px", marginTop:"-80px"}}>
         <h1 className="text-4xl font-extrabold flex justify-center text-white" >Get Notification About  <br/>Promotions We Offer</h1>
-      <form className="flex w-full ml-0 mt-20">
+      <form className="flex w-full ml-20 mt-20">
          <input className="flex p-4 border-0 w-100 h-15 bg-[#f3f3f2]" style={{borderRadius: "5px 0px 0px 5px", fontSize:"16px", outline:"none"}} type="email" placeholder="your email" required/>
         <button className="bg-[#2e1a63] text-[#fff] border-0 font-bold cursor-pointer hover:bg-[#42298c] w-30" style={{borderRadius: "0px 10px 10px 0px" }} type="submit">SUBMIT</button>
       </form>
